@@ -1,4 +1,4 @@
-import FormReservation from "./restaurants/FormReservation";
+import FormReservation from "../components/restaurantPage/FormReservation";
 import MapView from "../components/MapView";
 
 function RestaurantsPage() {

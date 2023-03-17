@@ -64,9 +64,15 @@ function FormReservation() {
           value={form.hora}
           onChange={(e) => setForm({ ...form, hora: e.target.value })}
         >
-          <option>10:00</option>
-          <option>10:30</option>
-          <option>11:00</option>
+          <option>13:00</option>
+          <option>14:00</option>
+          <option>15:00</option>
+          <option>16:00</option>
+          <option>17:00</option>
+          <option>18:00</option>
+          <option>19:00</option>
+          <option>20:00</option>
+          <option>21:00</option>
         </select>
         <label className="text-xl block mt-3">Personas: </label>
         <select

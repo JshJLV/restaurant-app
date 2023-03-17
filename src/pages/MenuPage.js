@@ -1,16 +1,14 @@
-import Jumbotron from "../components/Jumbotron"
-import Menu from "./menupage/Menu"
-// import imgCazuelada from "../assets/img/cazuelada.jpg"
-import imgPlatillos from "../assets/img/platillosVarios.jpg"
-
+import Jumbotron from "../components/Jumbotron";
+import Menu from "../components/MenuPage/Menu";
+import imgPlatillos from "../assets/img/platillosVarios.jpg";
 
 function MenuPage() {
   return (
     <main>
-        <Jumbotron img={imgPlatillos}/>
-        <Menu />
+      <Jumbotron img={imgPlatillos} />
+      <Menu />
     </main>
-  )
+  );
 }
 
-export default MenuPage
+export default MenuPage;
