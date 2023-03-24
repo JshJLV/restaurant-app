@@ -5,12 +5,12 @@ import { getFirestore } from "firebase/firestore";
 
 // config firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyCDHtLJj9hT5NkGDfvBfHgvMQRaQnAmnLo",
-  authDomain: "restaurant-app-ad9f7.firebaseapp.com",
+  apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTHDOMIAIN,
   projectId: "restaurant-app-ad9f7",
-  storageBucket: "restaurant-app-ad9f7.appspot.com",
-  messagingSenderId: "562425455599",
-  appId: "1:562425455599:web:fe669c4bf3ab9ed74bcc1a",
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGEBUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGINGSENDERID,
+  appId: process.env.REACT_APP_FIREBASE_APPID,
 };
 
 // Initialize Firebase
